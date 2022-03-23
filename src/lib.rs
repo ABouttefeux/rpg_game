@@ -30,4 +30,20 @@
 //#![warn(missing_docs)]
 #![doc(html_root_url = "https://docs.rs/rpg_game/0.0.0")]
 
+//#[derive(Debug, Clone, Copy, Eq, PartialEq, Hash, PartialOrd, Ord, Default)]
+
+pub mod basic;
+pub mod entity;
+pub mod global;
+pub mod interface;
+pub mod object;
+pub mod player;
 mod test;
+pub mod utils;
+
+pub use global::*;
+pub use utils::Never;
+
+mod private {
+    pub trait Sealed {}
+}
