@@ -23,7 +23,7 @@ rayon = "1.7.0"
 serde = { version = "1.0", features = ["derive"], optional = true }
 console = "0.15.5"
 dialoguer = "0.10.4"
-indicatif = {version = "0.17.3", features = ["rayon", "improved_unicode"]}
+indicatif = {version = "0.17.5", features = ["rayon", "improved_unicode"]}
 atty = "0.2.14"
 
 [dev-dependencies]
